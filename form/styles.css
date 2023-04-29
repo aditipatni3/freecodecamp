@@ -12,12 +12,18 @@ body {
     margin: 1em auto;
     text-align: center;
   }
+
+  a{
+  color: #dfdfe2;
+  }
   
   form {
     width: 60vw;
     max-width: 500px;
     min-width: 300px;
     margin: 0 auto;
+    padding-bottom:2em;
+
   }
   
   fieldset {
@@ -66,3 +72,6 @@ body {
     min-width:300px;
   
   }
+  input[type=file]{
+  padding:1px 2px;
+}
